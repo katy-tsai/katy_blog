@@ -18,7 +18,7 @@ jobs:
       MY_SECRET: ${{secrets.commit_secret}}
       USER_NAME: katy-tsai
       USER_EMAIL: katytsai.git@gmail.com
-      PUBLISH_DIR: ./dist
+      PUBLISH_DIR: ./public
     runs-on: ubuntu-latest
     strategy:
       matrix:
