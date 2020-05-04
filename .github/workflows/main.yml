@@ -42,7 +42,7 @@ jobs:
           git config --local user.name $USER_NAME
           git config --local user.email $USER_EMAIL
           git status
-          git remote add origin https://github.com/katy-tsai/katy_blog.git
+          git remote add origin https://katy-tsai.github.com/katy_blog.git
           git checkout -b gh-pages
           git add --all
           git commit -m "deploy to Github pages"
